@@ -13,6 +13,10 @@
         <a href="/login" class="container-group-text_four">お問い合わせ</a>
     </div>
 
+    <div class="container-bottom">
+        <p>Copyright &copy; 2024 iMPRESS Inc.</p>
+    </div>
+
     <div class="container-aaa">
         <p>a</p></br>
         <p>a</p></br>

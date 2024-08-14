@@ -1,4 +1,5 @@
 .container-group {
+    position: fixed;
     background-color: #0D6EFD;
     padding: 15px 0px;
 }
@@ -27,4 +28,9 @@
     margin: 0px 15px 0px 0px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.container-bottom {
+    margin: 0px 0px 0px 100px;
+    background-color: #0D6EFD;
 }
