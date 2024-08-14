@@ -1,4 +1,5 @@
-.container-group {
+.container-always_header {
+    width: 100%;
     position: fixed;
     background-color: #0D6EFD;
     padding: 15px 0px;
@@ -31,6 +32,11 @@
 }
 
 .container-bottom {
-    margin: 0px 0px 0px 100px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    font-size: smaller;
+    color: #ffffff;
     background-color: #0D6EFD;
 }

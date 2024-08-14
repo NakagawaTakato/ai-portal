@@ -6,15 +6,19 @@
 
 @section('content')
 <div class="container">
-    <div class="container-group">
+    <header class="container-always_header">
         <a href="/shop_all" class="container-group-text_one">iMPRESS Inc</a>
         <a href="/register" class="container-group-text_two">ホーム</a>
         <a href="/login" class="container-group-text_three">会社情報</a>
         <a href="/login" class="container-group-text_four">お問い合わせ</a>
-    </div>
+    </header>
 
-    <div class="container-bottom">
+    <footer class="container-always_footer">
         <p>Copyright &copy; 2024 iMPRESS Inc.</p>
+    </footer>
+
+    <div>
+
     </div>
 
     <div class="container-aaa">
