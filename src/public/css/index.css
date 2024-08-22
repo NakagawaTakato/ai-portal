@@ -5,6 +5,16 @@
     padding: 15px 0px;
 }
 
+.container-always_header-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container-always_header li {
+    display: inline-block;
+}
+
 .container-group-text_one {
     margin: 0px 15px 0px 100px;
     font-size: 20px;
@@ -30,6 +40,17 @@
     text-decoration: none;
     color: #ffffff;
 }
+
+.container-always_header-nav-ul {
+    /* list-style-type: none;
+    padding: 0;
+    margin: 0px 0px 0px 900px; */
+}
+
+/* .container-always_header-nav-ul-li {
+    display: inline-block;
+} */
+
 
 .container-always_footer {
     width: 100%;

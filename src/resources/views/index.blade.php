@@ -7,13 +7,21 @@
 @section('content')
 <div class="container">
     <header class="container-always_header">
-        <ul>
-            <li><a href="/shop_all" class="container-group-text_one">iMPRESS Inc</a></li>
-            <li><a href="/register" class="container-group-text_two">ホーム</a></li>
-            <li><a href="/login" class="container-group-text_three">会社情報</a></li>
-            <li><a href="/login" class="container-group-text_four">お問い合わせ</a></li>
+        <ul class="container-always_header-ul">
+            <li class="container-always_header-li"><a href="/shop_all" class="container-group-text_one">iMPRESS Inc</a></li>
+            <li class="container-always_header-li"><a href="/register" class="container-group-text_two">ホーム</a></li>
+            <li class="container-always_header-li"><a href="/login" class="container-group-text_three">会社情報</a></li>
+            <li class="container-always_header-li"><a href="/login" class="container-group-text_four">お問い合わせ</a></li>
         </ul>
         <nav>
+            <ul class="container-always_header-nav-ul">
+                <li class="container-always_header-nav-ul-li"><a href="/" class="container_one">サービス</a></li>
+                <li class="container-always_header-nav-ul-li"><a href="/" class="container_two">カテゴリ</a></li>
+                <li class="container-always_header-nav-ul-li"><a href="/" class="container_three">お問い合わせ</a></li>
+                <li class="container-always_header-nav-ul-li"><a href="/" class="container_four">ユーザー</a></li>
+                <li class="container-always_header-nav-ul-li"><a href="/" class="container_five">ログアウト</a></li>
+                <li class="container-always_header-nav-ul-li"><a href="/" class="container_six">aaa</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -24,14 +32,7 @@
     <header>
     <h1>iMPRESS AI Portal site</h1>
     <nav>
-      <ul>
-        <li><a href="/" class="container_one">サービス</a></li>
-        <li><a href="/" class="container_two">カテゴリ</a></li>
-        <li><a href="/" class="container_three">お問い合わせ</a></li>
-        <li><a href="/" class="container_four">ユーザー</a></li>
-        <li><a href="/" class="container_five">ログアウト</a></li>
-        <li><a href="/" class="container_six">aaa</a></li>
-      </ul>
+
     </nav>
     </header>
 
