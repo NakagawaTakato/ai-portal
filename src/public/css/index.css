@@ -73,8 +73,8 @@
 
 .container-main {
     display: flex;
-    justify-content: space-between;
-    gap: 0px;
+    justify-content: center;
+    gap: -50px;
 }
 
 .container-main-section-img {
