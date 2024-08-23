@@ -60,13 +60,13 @@
     margin-left: 10px;
 }
 
-.container-box {
-    width: 80%;
-    background-color: #F8F9FA;
-}
-
 .container-h1 {
     text-align: center;
+}
+
+.container-h1-background {
+    background-color: #F8F9FA;
+    padding: 10px 20px;
 }
 
 .container-always_footer {
