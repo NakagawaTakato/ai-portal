@@ -1,6 +1,7 @@
 .container-always_header {
     width: 100%;
     position: fixed;
+    top: 0px;
     background-color: #0D6EFD;
     padding: 15px 0px;
     display: flex;
@@ -61,7 +62,7 @@
 }
 
 .container-h1 {
-    margin-top: 200px;
+    margin-top: 70px;
     text-align: center;
 }
 
