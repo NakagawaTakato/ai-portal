@@ -74,6 +74,7 @@
 .container-main {
     display: flex;
     justify-content: space-between;
+    gap: 0px;
 }
 
 .container-main-section-img {
