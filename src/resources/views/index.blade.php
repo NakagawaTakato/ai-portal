@@ -31,13 +31,13 @@
         <section class="container-main-section_one">
             <img class="container-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
             <h3 class="container-main-h3">iMPRESS-AI Chatbot</h3>
-            <p class="container-main-text">iMPRESSパッケージユーザー様向けのユーザーサポートチャットボットです</p>
+            <p class="container-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
         </section>
 
         <section class="container-main-section_two">
             <img class="container-main-section-img" src="img/roboimage_sub.png" alt="">
             <h3 class="container-main-h3">Chatbot for guest</h3>
-            <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報などを私が詳しくご案内いたします！</p>
+            <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
         </section>
     </main>
 

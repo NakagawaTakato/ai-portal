@@ -71,7 +71,23 @@
     padding: 10px 35%;
 }
 
+.container-main {
+    display: flex;
+    justify-content: space-between;
+}
 
+.container-main-section-img {
+    width: 40%;
+    height: auto;
+}
+
+.container-main-section_one {
+    text-align: center;
+}
+
+.container-main-section_two {
+    text-align: center;
+}
 
 .container-always_footer {
     width: 100%;
