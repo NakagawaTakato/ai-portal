@@ -61,12 +61,12 @@
 }
 
 .container-h1 {
-    text-align: center;
+    margin: 100px auto;
 }
 
 .container-h1-background {
     background-color: #F8F9FA;
-    padding: 10px 20px;
+    padding: 10px 35%;
 }
 
 .container-always_footer {

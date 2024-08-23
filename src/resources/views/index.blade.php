@@ -25,7 +25,7 @@
         </nav>
     </header>
 
-    <h2 class="container-h1"></br></br><span class="container-h1-background">iMPRESS AI Portal site</span></h2>
+    <h2 class="container-h1"><span class="container-h1-background">iMPRESS AI Portal site</span></h2>
 
     <main>
         <section>
