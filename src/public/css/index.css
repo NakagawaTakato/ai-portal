@@ -61,7 +61,8 @@
 }
 
 .container-h1 {
-    margin: 100px auto;
+    margin-top: 200px;
+    text-align: center;
 }
 
 .container-h1-background {
