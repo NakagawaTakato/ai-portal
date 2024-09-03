@@ -41,7 +41,7 @@
         </section>
     </main>
 
-    <aside>
+    <aside class="aside">
         <input type="aside-text"></input>
         <input class="aside-btn" type="submit" value="検索">
     </aside>

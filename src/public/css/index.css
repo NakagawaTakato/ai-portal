@@ -94,6 +94,10 @@
     text-align: center;
 }
 
+.aside {
+    margin: 0px 0px 0px auto;
+}
+
 .aside-text {}
 
 .aside-btn {}
