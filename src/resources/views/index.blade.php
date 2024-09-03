@@ -44,6 +44,13 @@
                 <h3 class="container-main-h3">Chatbot for guest</h3>
                 <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
             </section>
+
+            <section class="container-main-section_three">
+                <img class="container-main-section-img" src="img/roboimage_sub.png" alt="">
+                <h3 class="container-main-h3">Chatbot for guest</h3>
+                <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
+            </section>
+
         </main>
 
         <aside class="aside">
