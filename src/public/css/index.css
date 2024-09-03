@@ -74,7 +74,11 @@
 .container-main {
     display: flex;
     justify-content: center;
-    gap: -50px;
+}
+
+.container-main-section_one,
+.container-main-section_two {
+    margin: 0 -200px;
 }
 
 .container-main-section-img {
@@ -89,6 +93,10 @@
 .container-main-section_two {
     text-align: center;
 }
+
+.aside-text {}
+
+.aside-btn {}
 
 .container-always_footer {
     width: 100%;

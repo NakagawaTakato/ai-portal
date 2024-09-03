@@ -42,8 +42,8 @@
     </main>
 
     <aside>
-    <h2>Bunner</h2>
-    <img src="images/banner.png" alt="">
+        <input type="aside-text"></input>
+        <input class="aside-btn" type="submit" value="検索">
     </aside>
 
     <div>前へ</div>
