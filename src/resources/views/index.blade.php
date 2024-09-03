@@ -27,8 +27,11 @@
 
     <div class="container-box">
 
-        <div class="container-backgroudcolor">aaaaaaaaaaaaaa</div>
-        <h2 class="container-h1"><span class="container-h1-background">iMPRESS AI Portal site</span></h2>
+        <h2 class="container-h1">iMPRESS AI Portal site</h2>
+
+        <div class="container-backgroudcolor"></div>
+
+        <div class="container-space"></div>
 
         <main class="container-main">
             <section class="container-main-section_one">
