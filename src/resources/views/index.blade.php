@@ -25,30 +25,34 @@
         </nav>
     </header>
 
-    <h2 class="container-h1"><span class="container-h1-background">iMPRESS AI Portal site</span></h2>
+    <div class="container-box">
 
-    <main class="container-main">
-        <section class="container-main-section_one">
-            <img class="container-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
-            <h3 class="container-main-h3">iMPRESS-AI Chatbot</h3>
-            <p class="container-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
-        </section>
+        <h2 class="container-h1"><span class="container-h1-background">iMPRESS AI Portal site</span></h2>
 
-        <section class="container-main-section_two">
-            <img class="container-main-section-img" src="img/roboimage_sub.png" alt="">
-            <h3 class="container-main-h3">Chatbot for guest</h3>
-            <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
-        </section>
-    </main>
+        <main class="container-main">
+            <section class="container-main-section_one">
+                <img class="container-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
+                <h3 class="container-main-h3">iMPRESS-AI Chatbot</h3>
+                <p class="container-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
+            </section>
 
-    <aside class="aside">
-        <input type="aside-text"></input>
-        <input class="aside-btn" type="submit" value="検索">
-    </aside>
+            <section class="container-main-section_two">
+                <img class="container-main-section-img" src="img/roboimage_sub.png" alt="">
+                <h3 class="container-main-h3">Chatbot for guest</h3>
+                <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
+            </section>
+        </main>
 
-    <div>前へ</div>
-    <div>1</div>
-    <div>次へ</div>
+        <aside class="aside">
+            <input type="aside-text"></input>
+            <input class="aside-btn" type="submit" value="検索">
+        </aside>
+
+        <div>前へ</div>
+        <div>1</div>
+        <div>次へ</div>
+
+    </div>
 
     <footer class="container-always_footer">
         <p>Copyright &copy; 2024 iMPRESS Inc.</p>
