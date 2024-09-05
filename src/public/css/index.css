@@ -102,7 +102,7 @@
 }
 
 .container-box-main {
-    width: 92%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -124,12 +124,10 @@
 }
 
 .aside-box {
-    position: absolute;
-    top: 150px;
-    width: 92%;
+    width: 30%;
     display: flex;
     flex-direction: column;
-    z-index: 3;
+    align-items: flex-end;
 }
 
 .aside-box-search {
