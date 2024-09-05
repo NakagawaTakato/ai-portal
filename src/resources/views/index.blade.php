@@ -51,11 +51,32 @@
                 <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
             </section>
 
+
+            <section class="container-main-section_four">
+                <img class="container-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
+                <h3 class="container-main-h3">iMPRESS-AI Chatbot</h3>
+                <p class="container-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
+            </section>
+
+            <section class="container-main-section_five">
+                <img class="container-main-section-img" src="img/roboimage_sub.png" alt="">
+                <h3 class="container-main-h3">Chatbot for guest</h3>
+                <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
+            </section>
+
+            <section class="container-main-section_six">
+                <img class="container-main-section-img" src="img/roboimage_sub.png" alt="">
+                <h3 class="container-main-h3">Chatbot for guest</h3>
+                <p class="container-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
+            </section>
+
         </main>
 
         <aside class="aside">
             <input type="aside-text"></input>
             <input class="aside-btn" type="submit" value="検索">
+            
+            <img class="aside-ttlimg" src="{{ asset('img/IMPRESS_logo.png') }}" alt="">
         </aside>
 
         <div>前へ</div>
