@@ -73,10 +73,13 @@
         </main>
 
         <aside class="aside">
-            <input type="aside-text"></input>
-            <input class="aside-btn" type="submit" value="検索">
-            
-            <img class="aside-ttlimg" src="{{ asset('img/IMPRESS_logo.png') }}" alt="">
+            <div>
+                <input type="aside-text"></input>
+                <input class="aside-btn" type="submit" value="検索">
+            </div>
+            <div>
+                <img class="aside-ttlimg" src="{{ asset('img/IMPRESS_logo.png') }}" alt="">
+            </div>
         </aside>
 
         <div>前へ</div>
