@@ -28,10 +28,6 @@
 
         <h2 class="container-box-h1">iMPRESS AI Portal site</h2>
 
-        <div class="container-box-backgroudcolor"></div>
-
-        <div class="container-box-space"></div>
-
         <main class="container-box-main">
             <section class="container-box-main-section_one">
                 <img class="container-box-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
