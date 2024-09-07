@@ -91,6 +91,17 @@
 
 .container-box-main {}
 
+.container-box-main-section_one {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background: #0000FF;
+}
+
+.container-box-main-section-img_one {
+    width: 100%;
+    height: auto;
+}
+
 .container-box-main-section_one,
 .container-box-main-section_two,
 .container-box-main-section_three,
@@ -102,11 +113,11 @@
 }
 
 .container-box-main-section-img_one {
-    width: 100%;
+    /* width: 100%;
     height: auto;
     grid-column: 2/3;
     grid-row: 3/4;
-    background: #0000FF;
+    background: #0000FF; */
 }
 
 .container-box-main-section-img {

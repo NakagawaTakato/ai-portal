@@ -31,8 +31,8 @@
         <main class="container-box-main">
             <section class="container-box-main-section_one">
                 <img class="container-box-main-section-img_one" src="{{ asset('img/roboimage_last.png') }}" alt="">
-                <h3 class="container-box-main-h3">iMPRESS-AI Chatbot</h3>
-                <p class="container-box-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
+                <!-- <h3 class="container-box-main-h3">iMPRESS-AI Chatbot</h3>
+                <p class="container-box-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p> -->
             </section>
 
             <section class="container-box-main-section_two">
