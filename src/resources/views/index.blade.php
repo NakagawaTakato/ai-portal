@@ -68,17 +68,12 @@
         </main>
 
 
-        <aside class="aside-box">
-            <div class="aside-box-search">
-                <input type="aside-box-text"></input>
-                <input class="aside-box-btn" type="submit" value="検索">
-            </div>
-            <div class="aside-box-logo">
-                <img class="aside-box-ttlimg" src="{{ asset('img/IMPRESS_logo.png') }}" alt="">
-            </div>
-        </aside>
+        <div class="container-box-search">
+            <input type="container-box-search-text"></input>
+            <input class="container-box-search-btn" type="submit" value="検索">
+        </div>
 
-        <div class="selct">
+        <div class="container-box-selct">
             <div>前へ</div>
             <div>1</div>
             <div>次へ</div>
