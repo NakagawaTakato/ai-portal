@@ -27,9 +27,14 @@
     <div class="container-box">
 
         <main class="container-box-main">
-            <h2 class="container-box-h2">iMPRESS AI Portal site</h2>
-            <div class="container-box-background"></div>
+            <h2 class="container-box-main-h2">iMPRESS AI Portal site</h2>
+            <div class="container-box-main-background"></div>
             
+            <div class="container-box-search">
+                <input type="container-box-search-text"></input>
+                <input class="container-box-search-btn" type="submit" value="検索">
+            </div>
+
             <section class="container-box-main-section_one">
                 <img class="container-box-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
                 <h3 class="container-box-main-h3">iMPRESS-AI Chatbot</h3>
@@ -65,19 +70,15 @@
                 <h3 class="container-box-main-h3">Chatbot for guest</h3>
                 <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
             </section>
+
+            <div class="container-box-main-selct">
+                <div>前へ</div>
+                <div>1</div>
+                <div>次へ</div>
+            </div>
+
         </main>
 
-
-        <div class="container-box-search">
-            <input type="container-box-search-text"></input>
-            <input class="container-box-search-btn" type="submit" value="検索">
-        </div>
-
-        <div class="container-box-selct">
-            <div>前へ</div>
-            <div>1</div>
-            <div>次へ</div>
-        </div>
 
     </div>
 

@@ -79,7 +79,7 @@
     position: relative;
 }
 
-.container-box-h2 {
+.container-box-main-h2 {
     position: absolute;
     top: -75px;
     left: 50%;
@@ -87,7 +87,7 @@
     z-index: 2;
 }
 
-.container-box-background {
+.container-box-main-background {
     position: absolute;
     top: -70px;
     left: 50%;
@@ -125,7 +125,9 @@
 
 .container-box-search {
     position: absolute;
-    top: 150px;
+    top: -54px;
+    right: 0;
+    z-index: 3;
 }
 
 .container-box-search-text {}
@@ -139,9 +141,8 @@
     height: auto;
 }
 
-.container-box-selct {
+.container-box-main-selct {
     position: absolute;
-    text-align: center;
 }
 
 .container-always_footer {
