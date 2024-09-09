@@ -27,45 +27,44 @@
     <div class="container-box">
 
         <h2 class="container-box-h2">iMPRESS AI Portal site</h2>
+        <div class="container-box-background"></div>
 
-        <div class="container-box-main">
-            <div class="container-box-main-section_one">
-                <img class="container-box-main-section-img_one" src="{{ asset('img/roboimage_last.png') }}" alt="">
-                <h3 class="container-box-main-h3">iMPRESS-AI Chatbot</h3>
-                <p class="container-box-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
-            </div>
-
-            <div class="container-box-main-section_two">
-                <img class="container-box-main-section-img" src="img/roboimage_sub.png" alt="">
-                <h3 class="container-box-main-h3">Chatbot for guest</h3>
-                <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
-            </div>
-
-            <div class="container-box-main-section_three">
-                <img class="container-box-main-section-img" src="img/roboimage_sub.png" alt="">
-                <h3 class="container-box-main-h3">Chatbot for guest</h3>
-                <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
-            </div>
-
-            <div class="container-box-main-section_four">
-                <img class="container-box-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
-                <h3 class="container-box-main-h3">iMPRESS-AI Chatbot</h3>
-                <p class="container-box-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
-            </div>
-
-            <div class="container-box-main-section_five">
-                <img class="container-box-main-section-img" src="img/roboimage_sub.png" alt="">
-                <h3 class="container-box-main-h3">Chatbot for guest</h3>
-                <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
-            </div>
-
-            <div class="container-box-main-section_six">
-                <img class="container-box-main-section-img" src="img/roboimage_sub.png" alt="">
-                <h3 class="container-box-main-h3">Chatbot for guest</h3>
-                <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
-            </div>
-
+        <div class="container-box-main-section_one">
+            <img class="container-box-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
+            <h3 class="container-box-main-h3">iMPRESS-AI Chatbot</h3>
+            <p class="container-box-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
         </div>
+
+        <div class="container-box-main-section_two">
+            <img class="container-box-main-section-img" src="img/roboimage_sub.png" alt="">
+            <h3 class="container-box-main-h3">Chatbot for guest</h3>
+            <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
+        </div>
+
+        <div class="container-box-main-section_three">
+            <img class="container-box-main-section-img" src="img/roboimage_sub.png" alt="">
+            <h3 class="container-box-main-h3">Chatbot for guest</h3>
+            <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
+        </div>
+
+        <div class="container-box-main-section_four">
+            <img class="container-box-main-section-img" src="{{ asset('img/roboimage_last.png') }}" alt="">
+            <h3 class="container-box-main-h3">iMPRESS-AI Chatbot</h3>
+            <p class="container-box-main-text">iMPRESSパッケージユーザー様向けの</br>ユーザーサポートチャットボットです</p>
+        </div>
+
+        <div class="container-box-main-section_five">
+            <img class="container-box-main-section-img" src="img/roboimage_sub.png" alt="">
+            <h3 class="container-box-main-h3">Chatbot for guest</h3>
+            <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
+        </div>
+
+        <div class="container-box-main-section_six">
+            <img class="container-box-main-section-img" src="img/roboimage_sub.png" alt="">
+            <h3 class="container-box-main-h3">Chatbot for guest</h3>
+            <p class="container-box-main-text">ゲストユーザー様にiMPRESSの製品情報</br>などを私が詳しくご案内いたします！</p>
+        </div>
+
 
         <aside class="aside-box">
             <div class="aside-box-search">
@@ -77,9 +76,11 @@
             </div>
         </aside>
 
-        <div>前へ</div>
-        <div>1</div>
-        <div>次へ</div>
+        <div class="selct">
+            <div>前へ</div>
+            <div>1</div>
+            <div>次へ</div>
+        </div>
 
     </div>
 
