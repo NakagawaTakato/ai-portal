@@ -85,12 +85,18 @@
 
 .container-box-h2 {
     text-align: center;
+    z-index: 2;
 }
 
 .container-box-background {
+    position: absolute;
+    top: 10px;
     width: 92%;
     height: 60px;
     background-color: #F8F9FA;
+    /* 真ん中へ */
+    margin: 0 auto;
+    z-index: 1;
 }
 
 .container-box-main {}
