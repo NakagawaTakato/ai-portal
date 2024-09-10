@@ -20,11 +20,6 @@
     display: inline-block;
 }
 
-.container-always_header-li_item {
-    color: #0D6EFD;
-    display: inline-block;
-}
-
 .container-group-text_one {
     margin: 0px 15px 0px 30px;
     font-size: 20px;
@@ -36,31 +31,19 @@
 .container-group-text_two {
     margin: 0px 15px 0px 0px;
     text-decoration: none;
-    color: #ffffff;
+    color: #F8F9FA;
 }
 
 .container-group-text_three {
     margin: 0px 15px 0px 0px;
     text-decoration: none;
-    color: #ffffff;
+    color: #F8F9FA;
 }
 
 .container-group-text_four {
     margin: 0px 15px 0px 0px;
     text-decoration: none;
-    color: #ffffff;
-}
-
-.container-group-text_five {
-    margin: 0px 15px 0px 0px;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.container-group-text_six {
-    margin: 0px 15px 0px 0px;
-    text-decoration: none;
-    color: #ffffff;
+    color: #F8F9FA;
 }
 
 .container-always_header-nav-ul {
