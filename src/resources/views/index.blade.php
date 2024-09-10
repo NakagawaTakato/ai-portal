@@ -9,9 +9,9 @@
     <header class="container-always_header">
         <ul class="container-always_header-ul">
             <li class="container-always_header-li"><a href="/shop_all" class="container-group-text_one">iMPRESS Inc</a></li>
-            <li class="container-always_header-li"><a href="/register" class="container-group-text_two">ホーム</a></li>
-            <li class="container-always_header-li"><a href="/login" class="container-group-text_three">会社情報</a></li>
-            <li class="container-always_header-li"><a href="/login" class="container-group-text_four">お問い合わせ</a></li>
+            <li class="container-always_header-li_item"><a href="/register" class="container-group-text_two">ホーム</a></li>
+            <li class="container-always_header-li_item"><a href="/login" class="container-group-text_three">会社情報</a></li>
+            <li class="container-always_header-li_item"><a href="/login" class="container-group-text_four">お問い合わせ</a></li>
         </ul>
         <nav>
             <ul class="container-always_header-nav-ul">
@@ -27,6 +27,7 @@
     <div class="container-box">
 
         <main class="container-box-main">
+            
             <h2 class="container-box-main-h2">iMPRESS AI Portal site</h2>
             <div class="container-box-main-background"></div>
             
@@ -72,9 +73,9 @@
             </section>
 
             <div class="container-box-main-selct">
-                <div>前へ</div>
-                <div>1</div>
-                <div>次へ</div>
+                <div class="container-box-main-selct-before">前へ</div>
+                <div class="container-box-main-selct-value">1</div>
+                <div class="container-box-main-selct-next">次へ</div>
             </div>
 
         </main>
