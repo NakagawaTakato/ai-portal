@@ -19,9 +19,14 @@
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">お問い合わせ</a></li>
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">ユーザー</a></li>
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">ログアウト</a></li>
-                <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">aaa</a></li>
+                <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text_last">aaa</a></li>
             </ul>
         </nav>
+        
+        <button id="startSpeechButton" class="btn btn-success rounded-pill btn-narrow">
+          <i class="fas fa-microphone"></i>
+        </button>
+        <div class="tooltip" style="display: none;">{% trans 'このマイクボタンのＯＮ／ＯＦＦで音声入力の開始と停止を行います。' %}</div>
     </header>
 
     <div class="container-box">
@@ -89,4 +94,22 @@
 
 
 </div>
+
+<script>
+    $(document).ready(function() {
+      $('#startSpeechButton').hover(
+        function() {
+          console.log("Hover in");
+          $(this).next('.tooltip').css('display', 'block');  // 明示的にdisplayをblockに設定
+        }, 
+        function() {
+          console.log("Hover out");
+          $(this).next('.tooltip').css('display', 'none');  // 明示的にdisplayをnoneに設定
+        }
+      );
+
+    });
+
+</script>
 @endsection
+
