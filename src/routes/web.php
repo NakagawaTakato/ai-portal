@@ -14,8 +14,8 @@ use App\Http\Controllers\TestController;
 |
 */
 
-// Route::get('/', [TestController::class, 'index']);
+Route::get('/', [TestController::class, 'index']);
 Route::middleware('auth')->group(function () {
-    Route::get('/', [TestController::class, 'index']);
+    Route::get('/login', [TestController::class, 'index']);
 });
 
