@@ -79,6 +79,15 @@
     position: relative;
 }
 
+.container-box-login {
+    position: absolute;
+    text-decoration: none;
+    top: 90px;
+    left: 60px;
+    color: #C0C0C0;
+    z-index: 2;
+}
+
 .container-box-main {
     position: absolute;
     top: 140px;
