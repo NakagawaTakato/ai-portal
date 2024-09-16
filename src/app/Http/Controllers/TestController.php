@@ -8,7 +8,8 @@ class TestController extends Controller
 {
     public function index()
     {
-        return view('index');
+        $isAuthenticated = Auth::check();
+        return view('index', ['isAuthenticated' => $isAuthenticated]);
     }
 
     public function main()

@@ -14,7 +14,7 @@
             <li class="container-always_header-li"><a href="/login" class="container-group-text_four">お問い合わせ</a></li>
         </ul>
         <nav>
-            @if (Auth::check())
+            @if ($isAuthenticated)
             <ul class="container-always_header-nav-ul">
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">サービス</a></li>
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">お問い合わせ</a></li>
@@ -22,6 +22,8 @@
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">ログアウト</a></li>
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text_last">aaa</a></li>
             </ul>
+            @else
+                // 未認証ユーザー向けのコンテンツ
             @endif
         </nav>
 
