@@ -19,10 +19,7 @@
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">サービス</a></li>
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">お問い合わせ</a></li>
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">ユーザー</a></li>
-                <form class="container-always_header-nav-ul-li" action="/logout" method="post">
-                    @csrf
-                    <input class="container-always_header-nav-ul-li-text" type="submit" value="ログアウト">
-                </form>
+                <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text">ログアウト</a></li>
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text_last">aaa</a></li>
             </ul>
             @endif
