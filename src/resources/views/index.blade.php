@@ -23,6 +23,7 @@
                 <li class="container-always_header-nav-ul-li"><a href="/" class="container-always_header-nav-ul-li-text_last">aaa</a></li>
             </ul>
             @else
+                // 未認証ユーザー向けのコンテンツ
             @endif
         </nav>
 
